@@ -20,6 +20,10 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Build Verification
+
+As of 2026-11-18 (sandbox date), `npm run build` in `src/web` succeeded with exit code 0 (Next.js 16.2.9, Turbopack). The Google Fonts fetch (`next/font/google`, Geist and Geist Mono) succeeded: no font fetch errors were reported and the build compiled successfully.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

@@ -41,7 +41,7 @@ Add a due_date column to the tasks table. Create the migration, update the API t
 ```
 
 ```
-Add input validation to the POST /tasks endpoint so that titles longer than 200 characters are rejected with a 422 status.
+Add input validation to the POST /tasks endpoint so that titles longer than 200 characters are rejected with a 400 `validation_error` response.
 ```
 
 ### Database migrations
